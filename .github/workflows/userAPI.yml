@@ -33,6 +33,5 @@ jobs:
         with:
           image: andybougard/fersoft
           registry: docker.io
-          directory: UserManagement/
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
