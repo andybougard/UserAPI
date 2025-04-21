@@ -2,8 +2,11 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 COPY . .
+
+#Use on github only
 WORKDIR /src/UserManagement
-RUN ls
+#
+
 RUN dotnet restore "UserManagement.csproj"
 RUN dotnet publish "UserManagement.csproj" -c Release -o /app/publish
 
