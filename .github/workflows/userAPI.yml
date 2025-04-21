@@ -33,7 +33,7 @@ jobs:
         with:
           image: andybougard/fersoft
           tags: 1.0.1, latest
-          directory: UserManagement/
+          dockerfile: UserManagement/Dockerfile
           registry: docker.io
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
