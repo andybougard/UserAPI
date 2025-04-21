@@ -16,6 +16,12 @@ namespace UserManagement.Controllers
             _userRepository = userRepository;
         }
 
+        [HttpGet("test")]
+        public IActionResult TestApiConnection()
+        {
+            return Ok("Connection with api success");
+        }
+
         [HttpGet]
         public async Task<IActionResult> GetUsers()
         {

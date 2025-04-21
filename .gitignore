@@ -5,3 +5,5 @@
 .vs/UserAPI/v17/DocumentLayout.json
 UserManagement/obj/Debug/net8.0/UserManagement.AssemblyInfoInputs.cache
 UserManagement/obj/Debug/net8.0/UserManagement.AssemblyInfo.cs
+
+.fake
